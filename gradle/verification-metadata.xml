@@ -6,6 +6,9 @@
       <key-servers>
          <key-server uri="https://keys.openpgp.org"/>
       </key-servers>
+      <trusted-artifacts>
+         <trust group="gradle" name="gradle"/>
+      </trusted-artifacts>
       <trusted-keys>
          <trusted-key id="19beab2d799c020f17c69126b16698a4adf4d638" group="org.checkerframework"/>
          <trusted-key id="2E3A1AFFE42B5F53AF19F780BCF4173966770193" group="org.jetbrains"/>
